@@ -1,0 +1,412 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1320; Version 2009; 64bit' Language: 'pl' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity_Projects/My project (5)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56646
+Successfully changed project path to: D:/Unity_Projects/My project (5)
+D:/Unity_Projects/My project (5)
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity_Projects/My project (5)/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000930 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (990ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (389ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (135ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (147ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003845 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.965 seconds
+Domain Reload Profiling:
+	ReloadAssembly (966ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (781ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1923 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.3 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 80 unused Assets to reduce memory usage. Loaded Objects now: 2354.
+Total: 3.392900 ms (FindLiveObjects: 0.197800 ms CreateObjectMapping: 0.042700 ms MarkObjects: 2.968700 ms  DeleteObjects: 0.183000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_wall.prefab
+  artifactKey: Guid(9c552c69b5d844776b91bc232be9a2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_wall.prefab using Guid(9c552c69b5d844776b91bc232be9a2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d3941d94bd17e5b19725fb55ca1f2d') in 0.737150 seconds 
+  Import took 0.836404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_ground_low_2x2.prefab
+  artifactKey: Guid(88b4c6a656a61473e927d368466869f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_ground_low_2x2.prefab using Guid(88b4c6a656a61473e927d368466869f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a195d97418627528cda04cb5740b455') in 0.013182 seconds 
+  Import took 0.047060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_water_drinker.prefab
+  artifactKey: Guid(63592b06c95d24828ac0c0891a5cb176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_water_drinker.prefab using Guid(63592b06c95d24828ac0c0891a5cb176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9becf3c21b4d11fa61ad01e55cc9216') in 0.029355 seconds 
+  Import took 0.032434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_shelf.prefab
+  artifactKey: Guid(c6a74e87f5c7347a09e0ce6ff9643e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_shelf.prefab using Guid(c6a74e87f5c7347a09e0ce6ff9643e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3822fbc49274c6ce68a3460d4e420f4f') in 0.015681 seconds 
+  Import took 0.019436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_pilot_blue.prefab
+  artifactKey: Guid(3a8cf12175ae6400dab162dff4927dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_pilot_blue.prefab using Guid(3a8cf12175ae6400dab162dff4927dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b8df3cfa82cf3fa0749229e02565f7') in 0.013333 seconds 
+  Import took 0.044411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_stairs.prefab
+  artifactKey: Guid(a407487e3f18d4caa81dceb9fde84d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_stairs.prefab using Guid(a407487e3f18d4caa81dceb9fde84d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300b66e227f2db2209a207d1f0dd678c') in 0.030837 seconds 
+  Import took 0.033892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_ground_small.prefab
+  artifactKey: Guid(f54a5e87d7ba44da197be2fd1f287240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_ground_small.prefab using Guid(f54a5e87d7ba44da197be2fd1f287240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86554ff6a70910fa57e1e54e82b858ad') in 0.012176 seconds 
+  Import took 0.040189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_wall_door.prefab
+  artifactKey: Guid(11d13692dbe8044e288f982c19e7428a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_wall_door.prefab using Guid(11d13692dbe8044e288f982c19e7428a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e138fda50f65e00b5a014d00dea23c') in 0.012675 seconds 
+  Import took 0.015459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_board.prefab
+  artifactKey: Guid(cd6fb14eee4254287b5f2cb8ecc8e5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_board.prefab using Guid(cd6fb14eee4254287b5f2cb8ecc8e5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f3d3e0cdb789af261ca65bc62bfd1f') in 0.013496 seconds 
+  Import took 0.048761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_cup.prefab
+  artifactKey: Guid(4ff5a917ee05d4e27a188b977e58d326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_cup.prefab using Guid(4ff5a917ee05d4e27a188b977e58d326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16717a4cfa63928f1f939f938fb3cd6') in 0.011664 seconds 
+  Import took 0.014564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_pilot_red.prefab
+  artifactKey: Guid(f13b72967b20549d5aff589765bc47c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_pilot_red.prefab using Guid(f13b72967b20549d5aff589765bc47c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff4d8283ee68681a2ccebffee2c5c76') in 0.011499 seconds 
+  Import took 0.041815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_wallcorner.prefab
+  artifactKey: Guid(26c306b5745314c00b8f46ec5797b82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_wallcorner.prefab using Guid(26c306b5745314c00b8f46ec5797b82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34df9cbe8e3b5739ebef4ab674c5c223') in 0.013653 seconds 
+  Import took 0.034010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_chair.prefab
+  artifactKey: Guid(d8e62113aeeee43d183ac5185ed7cb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_chair.prefab using Guid(d8e62113aeeee43d183ac5185ed7cb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bddcbf8e977c8013c373c6a46a812a') in 0.012250 seconds 
+  Import took 0.050752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_ground_slope.prefab
+  artifactKey: Guid(ca5ebd10104a047ca9b024a0b88f66d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_ground_slope.prefab using Guid(ca5ebd10104a047ca9b024a0b88f66d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3dee4d5680e480ab155eedfeda018a') in 0.010263 seconds 
+  Import took 0.013361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_ground_low.prefab
+  artifactKey: Guid(faa48f9f291554410aaca6b4a756ee9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_ground_low.prefab using Guid(faa48f9f291554410aaca6b4a756ee9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7180ed8bf4534cbb535bd6064503f213') in 0.011159 seconds 
+  Import took 0.049323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_ground_low_4x4.prefab
+  artifactKey: Guid(44db3442b975e4903a341e94633313fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_ground_low_4x4.prefab using Guid(44db3442b975e4903a341e94633313fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3559ba2055b62a9d3c9cf94bdae995c3') in 0.011703 seconds 
+  Import took 0.037154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_book.prefab
+  artifactKey: Guid(2ac7e6eb682174e7f8af567817914142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_book.prefab using Guid(2ac7e6eb682174e7f8af567817914142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1166d13c10be078ba4528e79b7cfce15') in 0.019544 seconds 
+  Import took 0.063203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_notepad.prefab
+  artifactKey: Guid(0ead29c770bf744edb5d1bb35396fd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_notepad.prefab using Guid(0ead29c770bf744edb5d1bb35396fd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ee657f9f52f487d19a56ff48f73902') in 0.012309 seconds 
+  Import took 0.015155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_wallconnect.prefab
+  artifactKey: Guid(0757d3ca4395b48a2ab9a818c62827f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_wallconnect.prefab using Guid(0757d3ca4395b48a2ab9a818c62827f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88e2f80d18cb7c54292bee7a98bf2c2') in 0.010957 seconds 
+  Import took 0.038504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_desk.prefab
+  artifactKey: Guid(4d0f11df00a954898acb314f59db9866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_desk.prefab using Guid(4d0f11df00a954898acb314f59db9866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef80ef3b29dc35121646305a2958cdf9') in 0.010206 seconds 
+  Import took 0.013335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_cabinet.prefab
+  artifactKey: Guid(436d6c6ad13444243927518c3405f6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_cabinet.prefab using Guid(436d6c6ad13444243927518c3405f6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000125165a6aedd72f9c1fc3b7bf119b') in 0.012069 seconds 
+  Import took 0.015723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_wall_window.prefab
+  artifactKey: Guid(dc6683fa63ddc41f28d3e735c624c03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_wall_window.prefab using Guid(dc6683fa63ddc41f28d3e735c624c03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4076a81fa5a56f7504c221d228db7a') in 0.010761 seconds 
+  Import took 0.013943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_vase.prefab
+  artifactKey: Guid(74da833b5bb7c425390b7e2f8e7dbbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_vase.prefab using Guid(74da833b5bb7c425390b7e2f8e7dbbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ef9d230980fc4c5e4e35e0294c653f') in 0.014231 seconds 
+  Import took 0.016870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_trashbin.prefab
+  artifactKey: Guid(ecf1977f578304690ac5aa8eec474446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/props prefabs/toon_office_trashbin.prefab using Guid(ecf1977f578304690ac5aa8eec474446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4aee24387c47f254aa4bfce4550cb3') in 0.010504 seconds 
+  Import took 0.014133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_door.prefab
+  artifactKey: Guid(85bb36dacd5804745a0d8fc8e3b3b108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_door.prefab using Guid(85bb36dacd5804745a0d8fc8e3b3b108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afec9462fd4b0b4c8b8bac33ab0a52ee') in 0.010453 seconds 
+  Import took 0.036046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_wallcolumn.prefab
+  artifactKey: Guid(74e8cedb60b19469395b7d9e8dd11c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_wallcolumn.prefab using Guid(74e8cedb60b19469395b7d9e8dd11c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39913129884bbd5195c073bd06690f4f') in 0.011184 seconds 
+  Import took 0.014663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_ground_high.prefab
+  artifactKey: Guid(b784b000d1b1541808634117f03cc02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Toon Office/Prefabs/tiles prefabs/toon_office_tile_ground_high.prefab using Guid(b784b000d1b1541808634117f03cc02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bd132f7ca6beb36edcb7d267c22ad5') in 0.012627 seconds 
+  Import took 0.015428 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003276 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.892 seconds
+Domain Reload Profiling:
+	ReloadAssembly (892ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (723ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1890 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.0 MB.
+System memory in use after: 87.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2363.
+Total: 3.549000 ms (FindLiveObjects: 0.225700 ms CreateObjectMapping: 0.046200 ms MarkObjects: 3.196200 ms  DeleteObjects: 0.079700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
